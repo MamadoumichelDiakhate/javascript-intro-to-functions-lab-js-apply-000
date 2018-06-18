@@ -14,7 +14,7 @@ describe('logShout(string)', function() {
      return console.log(string.toUpperCase());
   });
 });
-
+logShout("hello");
 
 describe('logWhisper(string)', function() {
   it('calls console.log() its one argument in all lowercase', function() {
