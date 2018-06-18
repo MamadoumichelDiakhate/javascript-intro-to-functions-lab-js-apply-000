@@ -1,5 +1,5 @@
 
-describe('shout(string)', function() {
+describe(')', function() {
   it('receives one argument and returns it in all caps', 
   function shout(string) {
     return 'hello!'.toUpperCase();
