@@ -11,7 +11,7 @@ whisper ("HELLO");
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', 
   function logWhisper(string){
-    const spy = expect.spyOn(console, 'log').andCallThrough()
+     return console.log(string.toLowerCase());
 
     logShout('hello')
 
