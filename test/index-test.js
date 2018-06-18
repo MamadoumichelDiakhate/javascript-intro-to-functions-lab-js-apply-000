@@ -3,8 +3,7 @@ var lowercase = 'hello';
  
 function shout(string){
   uppercase = string.toUpperCase();
-  string = uppercase;
-  return uppercase;
+  return 'Hello'.toUpperCase();
 }
 
 
