@@ -10,7 +10,7 @@ describe('whisper(string)', function() {
 whisper ("HELLO");
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', 
-  function logWhisper(string){
+  function logShout(string){
      return console.log(string.toLowerCase());
 
     logShout('hello')
