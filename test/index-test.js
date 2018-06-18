@@ -22,9 +22,11 @@ describe('logWhisper(string)', function() {
     return console.log(string.toLowerCase());
   });
 });
+logWhisper("HELLO");
 
 describe('sayHiToGrandma(string)', function() {
-  it('returns "I can\'t hear you!" if `string` is lowercase', function() {
+  it('returns "I can\'t hear you!" if `string` is lowercase',
+  function() {
     expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
   })
 
