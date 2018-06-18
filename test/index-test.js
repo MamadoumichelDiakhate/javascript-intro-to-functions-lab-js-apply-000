@@ -32,3 +32,4 @@ describe('sayHiToGrandma(string)', function() {
     else if (string === string.toUpperCase()) return "YES INDEED!";
   });
 });
+sayHiToGrandma("hello");
