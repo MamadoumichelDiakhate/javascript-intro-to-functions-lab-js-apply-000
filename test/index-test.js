@@ -1,6 +1,10 @@
- function shout(string) {
-   return string.toUpperCase();
- }
+ var uppercase, lowercase
+ 
+function shout(string){
+  uppercase = string.toUpperCase();
+  string = uppercase;
+  return uppercase;
+}
  
 
 describe('whisper(string)', function() {
