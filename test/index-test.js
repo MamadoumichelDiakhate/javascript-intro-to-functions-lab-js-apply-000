@@ -33,3 +33,4 @@ describe('sayHiToGrandma(string)', function() {
   });
 });
 sayHiToGrandma("hello");
+sayHiToGrandma("HELLO");
