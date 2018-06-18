@@ -1,10 +1,7 @@
  function shout(string) {
-  it('receives one argument and returns it in all caps', 
-  function shout(string) {
-    return 'hello!'.toUpperCase();
-  
-  });
-});
+   return string.toUpperCase();
+ }
+ 
 
 describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
